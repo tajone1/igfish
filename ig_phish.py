@@ -1,8 +1,8 @@
 import os
 import random
 import string
-from flask import Flask, request, render_template # type: ignore
-import requests # type: ignore
+from flask import Flask, request, render_template
+import requests
 
 # CONFIGURATION
 WEBHOOK_URL = "https://discord.com/api/webhooks/1348623113796980758/oIQnEl4m2mZBu-8vSpTz_wLFGHAFOwylAiOItlvxR_JJb7YICmjMhJxUeVo7mUd4PhML"  # Change this to your webhook
